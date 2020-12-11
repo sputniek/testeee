@@ -50,17 +50,17 @@ h17x8N = [-1.39401495e-02 -9.12258133e-01  7.61008921e+01];
 
 %% Grafico
 yyaxis left
-title('MTOW e Ângulo de Decolagem x Deflexão do Profundor','FontSize',16,'FontName','Times','FontWeight','bold')
+title('MTOW e Ã‚ngulo de Decolagem x DeflexÃ£o do Profundor','FontSize',16,'FontName','Times','FontWeight','bold')
 bar([15,16,17,18,19],[m15 0;m16 0;m17 0;m18 0;m19 0],'FaceColor',[0 0 1])
 hold on
-xlabel('Deflexão do Profundor','FontSize',14,'FontName','Times','FontWeight','bold');
+xlabel('DeflexÃ£o do Profundor','FontSize',14,'FontName','Times','FontWeight','bold');
 ylabel('MTOW','FontSize',14,'FontName','Calibri','FontWeight','bold');
 ylim([13.5 15])
 yticks([13.5:0.25:15])
 
 yyaxis right
 bar([15,16,17,18,19],[0 a15;0 a16;0 a17;0 a18;0 a19],'FaceColor',[1 0 0])
-ylabel('Ângulo de Decolagem','FontSize',14,'FontName','Times','FontWeight','bold')
+ylabel('Ã‚ngulo de Decolagem','FontSize',14,'FontName','Times','FontWeight','bold')
 grid
 %}
 % ylim([3 6])
@@ -76,6 +76,10 @@ fprintf("\nAngulo: %.2f", x3)
 fprintf("\nVelocidade: %.2f\n", x4)
 toc
 
+
+## mudanca de teste
+
+xx = 33;
 
 function deg = rad2deg(num)
     deg = num*180/pi;
