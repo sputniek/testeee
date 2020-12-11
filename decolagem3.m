@@ -3,6 +3,8 @@ clear all
 close all
 %% INPUTS
 
+%% testando 1 2 3
+
 % ASA - [cma, b, S_w, cdf, cl_w0, cd_w0, cm_w0, cl_w2, cd_w2]
 % EH - [S_eh, d_CA, cl0_eh, cd0_eh, cl0def_eh, cd0def_eh, cl2def_eh, cd2def_eh, deflexao]
 % GMP - [at, bt, ct]
